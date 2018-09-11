@@ -15,6 +15,9 @@ public class NumberTest {
 		d++;
 		System.out.println(f + d);
 		System.out.println(Math.PI);
+
+		int x = (int) 10000000000000000000000000f;
+		System.out.println(x);
 	}
 
 	@Test

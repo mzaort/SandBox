@@ -8,6 +8,11 @@ import org.junit.Test;
 public class StringTest {
 
 	@Test
+	public void testReplace2() {
+		System.out.println("java.util.Arrays".replace(".", "$"));
+	}
+
+	@Test
 	public void testJoin() {
 		String[] str = { "1", "2", "3" };
 		System.out.println(String.join("-|", str));

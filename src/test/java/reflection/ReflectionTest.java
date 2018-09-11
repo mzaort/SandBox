@@ -8,6 +8,12 @@ import org.junit.Test;
 public class ReflectionTest {
 
 	@Test
+	public void testPackage() {
+		String p = String.class.getPackage().getName();
+		System.out.println(p);
+	}
+
+	@Test
 	public void testGetDeclaredMethod() throws NoSuchMethodException, SecurityException, IllegalAccessException,
 			IllegalArgumentException, InvocationTargetException {
 		Method foo = Foo.class.getDeclaredMethod("Foo");
